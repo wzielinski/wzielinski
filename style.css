@@ -1,0 +1,54 @@
+.content { 
+	display : flex
+}
+
+.article {
+	margin: 10px;
+}
+
+@media (max-width: 600px) {
+  .content-order {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 601px) {
+  .content-order {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 300px) {
+	.big-cry-image {
+		display: none;
+	}
+	.small-cry-image {
+		display:unset;
+		width: 50px;
+    	height: 50px;
+	}
+
+}
+
+@media (min-width: 300px) {
+	.big-cry-image {
+		display: unset;
+	}
+	.small-cry-image {
+		display: none;
+	}
+
+}
+
+.title {
+	color: red;
+	text-align: center;
+}
+
+.learn-list {
+	background-color: gray;
+}
+
+body {
+	background-color: #F8EBD5;
+}
