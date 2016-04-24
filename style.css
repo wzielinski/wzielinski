@@ -6,19 +6,19 @@
 	margin: 10px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .content-order {
     flex-direction: column;
   }
 }
 
-@media (min-width: 601px) {
+@media (min-width: 900 px) {
   .content-order {
     flex-direction: row;
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 500px) {
 	.big-cry-image {
 		display: none;
 	}
@@ -30,7 +30,8 @@
 
 }
 
-@media (min-width: 300px) {
+
+@media (min-width: 500px) {
 	.big-cry-image {
 		display: unset;
 	}
@@ -50,5 +51,5 @@
 }
 
 body {
-	background-color: #F8EBD5;
+	background-color: #ADD8E6;
 }
